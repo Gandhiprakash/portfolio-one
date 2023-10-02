@@ -1,0 +1,20 @@
+.navbar-brand
+{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.navbar-brand span
+{
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cool
+{
+    margin-left: 200px;
+}
+.jim
+{
+    margin-left: 20px;
+}

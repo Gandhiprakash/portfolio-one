@@ -1,0 +1,493 @@
+body
+{
+    /*background-image: linear-gradient(to right bottom, #6bd17d, #00ceab, #00c6d7, #00baf7, #00a7ff, #6f99fb, #a188eb, #c675d2, #e068bb, #f25e9e, #fb5a7f, #fb5f5f);*/
+    /*background-image: linear-gradient(to right bottom, #f400ff, #ff0087, #ff6500, #e3ba00, #5eeb12);*/
+    /*background-image: linear-gradient(to left top, #f41c67, #ee6d2c, #c7a61b, #8fd162, #3af0c0);*/
+    /*background-image: linear-gradient(to right top, #ff57b6, #de7be2, #b399fc, #8aafff, #75c0fc, #5acaf4, #56d2e6, #69d7d3, #77dab4, #9cd98e, #cad26d, #fbc55f);*/
+    background-image: linear-gradient(to right top, #6b033e, #631f58, #53336c, #3d427a, #224f80, #18507e, #0c517c, #005279, #004a75, #004170, #00396a, #013064);
+
+}
+*
+{
+    scroll-behavior: smooth;
+    font-family: Georgia;
+}
+.top
+{
+    position: fixed;
+    z-index: 2;
+    width:100%;
+}
+.hole
+{
+    width: 100%;
+}
+.name
+{
+    position: absolute;
+    color: rgb(238, 34, 34);
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 20vw;
+    margin-left: 60vw;
+    text-transform: uppercase;
+    
+}
+.name p
+{
+    font-size: 2vw;
+    color: rgb(238, 34, 34);
+    text-transform:capitalize;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin-left: 40px;
+}
+.name p span
+{
+    border-bottom: 0.2vw solid rgb(82, 187, 229);
+}
+#about
+ {
+        width: 100%;
+        background-color:transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: justify;
+        text-transform: capitalize;
+        font-size: 1.2em;
+        padding: 30px;
+        color: #ffffff;
+    
+}
+#about span
+{
+        text-align: left;
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: capitalize;
+        border-bottom: 4px solid rgb(82, 187, 229);
+        margin-left: 20px;
+}
+.doll 
+{
+    width: 500px;
+    height: 333px;
+    background-size: cover;
+    align-items: center;
+
+}
+.abouthead
+{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+.detail
+{
+    font-size: 16px;
+    text-transform: lowercase;
+}
+.detail b , details
+{
+    text-transform: capitalize;
+}
+.local
+{
+    margin-top: 20px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+.skills
+{
+    width: 100%;
+    padding: 20px;
+    background-color:transparent;
+    background-size: cover;
+}
+.start
+{
+    color: #ffffff;
+    font-size: 2em;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-bottom: 4px solid rgb(47, 56, 221);
+    width: 60px;
+}
+.explain
+{
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: justify;
+    color:#ffffff;
+    font-size: 18px;
+}
+.html
+{
+    font-size: 25px;
+    font-weight: bold;
+    color:#ffffff;
+}
+#resume
+{
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    font-weight:bold;
+    border-bottom: 4px solid rgb(82, 187, 229);
+    width: 60px;
+}
+.hit
+{
+    color:white;
+}
+.hit:hover
+{
+        color: white;
+            /* Safari and Chrome */
+          -webkit-box-shadow: 7px 7px 20px 0px  rgba(5, 226, 20, 0.3), 
+                                             40px 40px 10px -40px  rgba(170, 0, 255, 0.8) inset;/*X-Axis, Y-Axis, Feather, Size, Color*/
+         /* CSS3 */
+          box-shadow: 7px 7px 20px 0px  rgba(5, 226, 20, 0.3), 
+                                 40px 40px 10px -40px  rgba(170, 0, 255, 0.8) inset;
+}
+.educ
+{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.educ span
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.educ span:hover
+{
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+        /* Safari and Chrome */
+      -webkit-box-shadow: 7px 7px 20px 0px  rgba(246, 43, 3, 0.3), 
+                                         40px 40px 10px -40px  rgba(254, 252, 251, 0.8) inset;/*X-Axis, Y-Axis, Feather, Size, Color*/
+     /* CSS3 */
+      box-shadow: 7px 7px 20px 0px  rgba(240, 239, 238, 0.3), 
+                             40px 40px 10px -40px  rgba(255, 255, 255, 0.8) inset;
+}
+.det ul li
+{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.educat
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.msc
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.msc span
+{
+    font-size: 18px;
+    background-color: rgb(96, 96, 188);
+    color: rgb(7, 234, 158);
+    font-weight: normal;
+    margin-left: 20px;
+    padding: 5px;
+}
+.college
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+.college span
+{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-align: justify;
+    text-transform: initial;
+}
+.flip
+{
+    width: 250px;
+    height: 150px;
+    background-color:transparent;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.flipin
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    border-radius: 40px;
+}
+.flip:hover .flipin
+{
+    transform: rotateY(180deg);
+}
+.fronts,.back
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.fronts
+{
+    background-color: rgb(0, 32, 162);
+    color: palegreen;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.back
+{
+    background-color: rgb(188, 188, 188);
+    color:greenyellow ;
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    transform: rotateY(180deg);
+    border-radius: 40px;
+}
+.ones
+{
+    margin: 50px;
+    color: palegreen;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.two
+{
+    margin: 30px;
+    color:greenyellow ;
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: bold;
+}
+#port
+{
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    color: white ;
+}
+.nam
+{
+    text-transform: capitalize;
+    font-size: 30px;
+    border-bottom: 4px solid rgb(82, 187, 229);
+    width: 50px;
+    margin: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+.fone
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.port-item
+{
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    height: 250px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.port-info
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to right bottom, #e7cd23, #ffa031, #ff6f61, #ff4a98, #e14fce, #c854dc, #a85be7, #8061f1, #a854e6, #c844d8, #e32fc6, #f80eb1);    margin-left: 35px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform:scale(0);
+    transition: 0.4s;
+    border-radius: 15px;
+    visibility: hidden;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.port-item:hover .port-info
+{
+    transform: scale(1);
+    visibility: visible;
+}
+.port-info a
+{
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 46px;
+    transition: 0.4s;
+    color: cadetblue;
+}
+.port-info a:hover
+{
+    background-color: black;
+    color: orangered;
+}
+#contact
+{
+    width: 100%;
+    height: 700px;
+    background-color:transparent;
+    color: white;
+}
+.namo
+{
+    text-transform: capitalize;
+    font-size: 30px;
+    border-bottom: 4px solid rgb(82, 187, 229);
+    width: 50px;
+    margin: 20px;
+    font-weight: bold;
+    color: rgb(4, 31, 184);
+    margin-top: 20px;
+    color: white;
+}
+.contacts
+{
+    margin-top: 50px;
+    background-color: transparent;
+    box-shadow: 0 0 20px rgba(0,0,0,20%);
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+}
+.contact-left
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 0px 0;
+    color: white;
+}
+.icon i
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(101, 226, 167);
+    text-align: center;
+    line-height: 47px;
+    font-size: 20px;
+    color: rgb(101, 226, 167);
+    transition: 0.5s;
+} 
+.contact-left:hover .icon i
+{
+    background-color: rgb(101, 226, 167);
+    color: beige;
+}
+.infor h4
+{
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+}
+.infor p
+{
+     font-size: 13px;
+     font-weight: 500;
+}
+.send
+{
+    margin-top: 50px;
+    box-shadow: 0 0 20px rgba(0,0,0,20%);
+    border-radius: 30px;
+    width: 380px;
+    margin-left: 20px;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 30px 0;
+    color: white;
+}
+form input,textarea
+{
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+form input:focus,textarea:focus
+{
+    border: 2px solid rgb(101, 226, 167);
+}
+#name
+{
+    background-color: transparent;
+}
+#email
+{
+    background-color: transparent;
+}
+#subject
+{
+    background-color: transparent;
+}
+#msg
+{
+    background-color: transparent;
+}
+.you:hover
+{
+    color: white;
+    /* Safari and Chrome */
+  -webkit-box-shadow: 7px 7px 20px 0px  rgb(228, 237, 228), 
+                                     40px 40px 10px -40px  rgba(255, 255, 255, 0.701) inset;/*X-Axis, Y-Axis, Feather, Size, Color*/
+ /* CSS3 */
+  box-shadow: 7px 7px 20px 0px  rgb(255, 255, 255), 
+                         40px 40px 10px -40px  rgba(245, 243, 247, 0.8) inset;
+
+}
