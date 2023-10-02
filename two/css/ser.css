@@ -1,0 +1,270 @@
+.ser
+{
+    background-color: rgb(230, 220, 220);
+    padding: 20px;
+}
+.trend
+{
+    color: rgb(5, 198, 198);
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: left;
+    text-transform: capitalize;
+}
+.dor
+{
+    width: 150px;
+    height: 200px;
+    float: left;
+
+}
+.crea
+{
+    background-color: white;
+    width: 550px;
+    height:220px ;
+    padding: 10px;
+    margin: 5px;
+}
+.topic
+{
+    font-size: 14px;
+    padding: 4px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(214, 210, 210);
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.port
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+    float: left;
+}
+.own
+{
+    color: rgb(21, 219, 241);
+    font-size: 20px;
+    margin-top: 70px;
+    text-transform: capitalize;
+}
+.own span
+{
+    color: rgb(200, 195, 195);
+    font-size: 16px;
+    top: 20px;
+    position: relative;
+
+}
+.was
+{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.rate
+{
+    text-transform: capitalize;
+    font-size: 12px;
+    color:  rgb(200, 195, 195);
+    margin-left: 5px;
+    margin-top: 20px;
+    float: left;
+}
+.vor
+{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(24, 152, 226);
+    text-align: center;
+}
+.loge
+{
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-left: 620px;
+}
+.cris
+{
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: rgb(180, 174, 174) ;
+    margin-top: 20px;
+}
+.crep
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    text-align: center;
+}
+.kim
+{
+    padding: 30px;
+}
+.bar
+{
+    background-color: rgb(227, 222, 222);
+    padding: 30px;
+}
+.our
+{
+    color: rgb(31, 203, 230);
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.our span
+{
+    color: rgb(189, 186, 186);
+    font-size: 16px;
+    font-weight: normal;
+}
+.kom
+{
+    width: 350px;
+    height: 250px;
+}
+.many
+{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.many span
+{
+    color: darkgray;
+    font-size: 14px;
+    float: left;
+}
+.man
+{
+    color: rgb(35, 142, 236);
+    font-size: 14px;
+    text-transform: capitalize;
+    float: left;
+}
+.creat
+{
+    margin-top: 20px;
+}
+.sor
+{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 35px;
+}
+.kon
+{
+    border-radius: 5px;
+    margin-left: 620px;
+    margin-top: 20px;
+}
+.more
+{
+    background-color: rgb(57, 57, 231);
+    padding: 50px;
+}
+.mg
+{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.mg span
+{
+    font-size: 16px;
+    opacity: 50%;
+}
+.kor
+{
+    margin-top: 30px;
+    float: left;
+}
+.lol
+{
+    float: left;
+    margin-top: 27px;
+    letter-spacing: 1px;
+}
+.tere
+{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.tere span
+{
+    font-size: 16px;
+    opacity: 50%;
+    font-weight: normal;
+}
+.rew
+{
+    background-color: rgb(29, 28, 28);
+    padding:50px 20px 100px 20px ;
+}
+.ger
+{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.gy
+{
+    text-transform: capitalize;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    opacity: 50%;
+    margin-top: 10px;
+
+}
+.pole
+{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+}
+.yer
+{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.vin
+{
+    color: white;
+    background-color: rgb(29, 28, 28);
+    float: left;
+    margin-top: 2px;
+}
+.lop
+{
+    letter-spacing: 1px;
+    float: left;
+}
+.tuy
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    opacity: 40%;
+
+}
